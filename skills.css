@@ -1,0 +1,44 @@
+ @charset "utf-8";
+
+/*
+	Portfolio
+   Filename: skills.css
+   
+   This file contains the layout styles used for the Portfolio
+   
+   Any crediting will go here: 
+*/
+
+
+ /*HTML and Body Styles*/
+body{
+	margin-top:5px;
+	font-family:courbd;
+	src: url(courrbd.ttf);
+	font-size:1.3em;
+}
+nav.horizontal {
+	padding-bottom:7px;
+}
+ 
+ 
+ 
+ 
+ /*Section 1 Styles*/
+section#achiev a{
+	color:hsl(210, 100%, 40%);
+	display:block;
+	width:100%;
+	text-decoration:none;
+}
+section#achiev a:hover{
+	color:hsl(240, 20%, 50%);
+	background-color:hsl(240, 100%, 90%);
+	text-decoration:none;
+ 
+ 
+ }
+ /*Section 2 Styles*/
+section#skills p#song{
+	font-family:verdana;
+	src: url(verdana.ttf);
