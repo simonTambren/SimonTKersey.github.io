@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*
+	Portfolio
+   Filename: mobile.css
+   
+   This file contains the layout styles used for the Portfolio
+   
+   Any crediting will go here: 
+*/
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
+@media only screen and (max-width: 570px) {
+	section#FHC img{
+		display:none;
+	}
+	section#LC img{
+		display:none;
+	}
+	body{
+		margin:15px;
+		padding-bottom:40px;
+	}
+	section#ihop img, section#taco_bell img, section#dq img, section#kfc img{
+	display:none;
+}
+	section img#comm{
+		display:none;
+	}
+	section#achiev img, section#skills img{
+		display:none;
+	}
+	section#skills p#song, section#skills h2{
+		display:none;
+	}
+	section#ref img{
+		display:none;
+	}
+	
+	
+}
+
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/
+@media only screen and (min-width: 481px) {
+	
+	
+} 
